@@ -29,6 +29,8 @@ routes.get('/members', function (req, res) {
   return res.send('members')
 })
 
-routes.put('/instructors',  instructors.put)
+routes.put('/instructors', instructors.put)
+
+routes.delete('/instructors', instructors.delete)
 
 module.exports = routes

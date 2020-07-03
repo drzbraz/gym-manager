@@ -4,13 +4,13 @@
       "avatar_url": "http://www.google.com.br",
       "birth": 900720000000,
       "created_at": 1593383512688,
-      "id": 1,
+      "id": "1",
       "name": "Daniel Dos Reis Braz",
       "services": "Crossfit",
       "gender": "M"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Daniel Dos Reis Braz",
       "avatar_url": "http://www.google.com.br",
       "birth": 900720000000,
@@ -19,7 +19,7 @@
       "created_at": 1593383562494
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Daniel Dos Reis Braz",
       "avatar_url": "http://www.google.com.br",
       "birth": 900720000000,
@@ -28,31 +28,13 @@
       "created_at": 1593389614483
     },
     {
-      "id": 4,
-      "name": "Daniel Dos Reis Braz",
-      "avatar_url": "http://www.google.com.br",
-      "birth": 900720000000,
-      "gender": "M",
-      "services": "Crossfit, Natação, Fitness",
-      "created_at": 1593389727599
-    },
-    {
-      "id": 5,
+      "id": "5",
       "name": "Daniel Dos Reis Braz",
       "avatar_url": "http://www.google.com.br",
       "birth": 900720000000,
       "gender": "M",
       "services": "Crossfit, Natação, Fitness",
       "created_at": 1593389752711
-    },
-    {
-      "id": "6",
-      "name": "Daniel Dos Reis Braz",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/29317790?s=400&u=7ead8fb31f383bf39620f4468b7a29982a16dd2e&v=4",
-      "birth": 900720000000,
-      "gender": "M",
-      "services": "Crossfit, Natação, Fitness",
-      "created_at": 1593390007120
     }
   ]
 }
