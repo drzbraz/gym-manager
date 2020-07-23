@@ -2,6 +2,7 @@
 
 {%block content%}
   <div class="card table-container">
+		<a href="/instructors/create">Novo</a>
 		<table width='100%'>
 			<thead>
 				<tr>
@@ -19,6 +20,9 @@
 			<tbody>
 				{% for instructor in instructors %}
 				<tr>
+					<td>
+						<span style="background-image: url({{instructor.avatar_url}})"></span>
+					</td>
 					<td>{{instructor.name}}</td>
 					<td>{{instructor.services}}</td>
 					<td><a href="/instructors/{{instructor.id}}">Ver</a></td>

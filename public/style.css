@@ -138,7 +138,7 @@ header {
 }
 
 /* FORM */
-input {
+input,select {
   width: 100%;
   outline: none;
   color: #aaa;
@@ -201,4 +201,47 @@ td, th {
 tbody tr:last-child td{
 	border-bottom: none;
 
+}tbody tr td:first-child
+
+th{
+	text-transform: uppercase;
+	color: #777;
+	font-size: 14px;
+}
+
+tbody tr td:first-child{
+	display: grid;
+	grid-template-columns: 64px 1fr;
+	align-items: center	;
+}
+
+tbody tr td:first-child span{
+	width: 40px;
+	height: 48px;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+	box-shadow: 3px 1px 6px -4px black;
+	border: 2px solid white;
+}
+
+tbody tr td:last-child a,
+.table-container > a {
+	background-color: var(--primary-color);
+	padding: 8px 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-size: 12px;
+	border-radius: 4px;
+}
+
+.table-container > a {
+	margin-bottom: 16px;
+	display: inline-block;	
+}
+
+.table-container thead tr th:last-child,
+td:last-child{
+	text-align: center;
 }
