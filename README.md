@@ -5,6 +5,9 @@
 [![NPM Version][npm-image]][npm-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
+<p align="center">
+  <img align="center" src="./.github/gym-manager.jpeg" alt="Web-Signin" border="0">
+</p>
 
 ## 👨🏼‍💻 Autores
 
