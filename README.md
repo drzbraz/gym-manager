@@ -24,7 +24,7 @@ Lançado em 2020.
 Este projeto está sob a [MIT license](https://github.com/drzbraz/gym-manager/blob/master/LICENSE).
 
 <p align="center">
-   Modelo de Readme.md original de <a href="https://github.com/jeffeloy">Jefferson Eloy</a>
+   Créditos Readme.md <a href="https://github.com/jeffeloy">Jefferson Eloy</a>
 </p>
 
 <!-- Markdown link & img dfn's -->
