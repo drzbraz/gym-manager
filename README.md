@@ -21,7 +21,7 @@
 ## :green_book: License
 
 Lançado em 2020.
-Este projeto está sob a [MIT license](https://github.com/jeffeloy/ecoleta-backend/blob/master/LICENSE).
+Este projeto está sob a [MIT license](https://github.com/drzbraz/gym-manager/blob/master/LICENSE).
 
 <p align="center">
    Modelo de Readme.md original de <a href="https://github.com/jeffeloy">Jefferson Eloy</a>
