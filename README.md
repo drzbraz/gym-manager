@@ -26,7 +26,7 @@
 Lançado em 2020.
 Este projeto está sob a [MIT license](https://github.com/drzbraz/gym-manager/blob/master/LICENSE).
 
-
+Desenvolvido por <a href="https://github.com/drzbraz">Daniel Braz</a> :space_invader:
  <!--  Créditos Readme.md <a href="https://github.com/jeffeloy">Jefferson Eloy</a> -->
 
 
