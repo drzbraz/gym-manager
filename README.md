@@ -6,7 +6,7 @@
 [![Downloads Stats][npm-downloads]][npm-url]
 
 <p align="center">
-  <img align="center" src="./.github/gym-manager.jpeg" alt="Web-Register" border="0">
+  <img align="center" width=500px src="./.github/gym-image.png" alt="Web-Register" border="0">
 </p>
 
 ## 👨🏼‍💻 Autores
@@ -26,9 +26,12 @@
 Lançado em 2020.
 Este projeto está sob a [MIT license](https://github.com/drzbraz/gym-manager/blob/master/LICENSE).
 
-<p align="center">
-   Créditos Readme.md <a href="https://github.com/jeffeloy">Jefferson Eloy</a>
+<br>
+<p align='center'>
+Desenvolvido por <a href="https://github.com/drzbraz">Daniel Braz</a> :space_invader:
 </p>
+<!--  Créditos Readme.md <a href="https://github.com/jeffeloy">Jefferson Eloy</a> -->
+
 
 <!-- Markdown link & img dfn's -->
 
