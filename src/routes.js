@@ -1,18 +1,18 @@
 // HTTP VERBS
 // GET = Receber
-// POST = Criar ou Salvar 
+// POST = Criar ou Salvar
 // PUT = Atualizar
 // DELETE = Deletar
 const express = require('express')
 const routes = express.Router()
-const instructors = require('./controllers/instructors')
-const members = require('./controllers/members')
+const instructors = require('./app/controllers/instructors')
+const members = require('./app/controllers/members')
 
 routes.get('/', function (req, res) {
   return res.redirect('/instructors')
 })
 
-/*==INSTRUCTORS==*/ 
+/* ==INSTRUCTORS== */
 
 routes.get('/instructors', instructors.index)
 routes.get('/instructors/create', instructors.create)
@@ -22,7 +22,7 @@ routes.post('/instructors', instructors.post)
 routes.put('/instructors', instructors.put)
 routes.delete('/instructors', instructors.delete)
 
-/*==MEMBERS==*/
+/* ==MEMBERS== */
 
 routes.get('/members', members.index)
 routes.get('/members/create', members.create)
