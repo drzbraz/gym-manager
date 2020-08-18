@@ -19,8 +19,9 @@ module.exports = {
 				birth,
 				blood,
 				weight,
-				height
-			) VALUES ($1, $2, $3, $4, $5, $6, $7, $8)
+				height,
+				instructor_id
+			) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
 			RETURNING id
 		`
     const values = [
@@ -29,22 +30,24 @@ module.exports = {
       data.gender,
       data.email,
       date(data.birth).iso,
-      data.birth,
       data.blood,
       data.weigth,
-      data.heigth
+      data.heigth,
+      data.instructor
+
     ]
 
-    db.query(query, values).then(function (err, results) {
+    db.query(query, values, function (err, results) {
       if (err) throw `Database error! ${err}`
       callback(results.rows[0])
     })
   },
   find (id, callback) {
     db.query(`
-		SELECT * 
+		SELECT members.*, instructors.name AS instructor_name
 		FROM members
-		WHERE id = $1`, [id], function (err, results) {
+		LEFT JOIN instructors ON (members.instructor_id = instructors.id)
+		WHERE members.id = $1`, [id], function (err, results) {
       if (err) throw `Database error! ${err}`
       callback(results.rows[0])
     })
@@ -59,8 +62,9 @@ module.exports = {
 			email=($5),
 			blood=($6),
 			weigth=($7),
-			heigth=($8)
-		WHERE id = $9
+			heigth=($8),
+			instructor_id=($9)
+		WHERE id = $10
 		`
     const values = [
       data.avatar_url,
@@ -71,6 +75,7 @@ module.exports = {
       data.blood,
       data.weigth,
       data.heigth,
+      data.instructor,
       data.id
     ]
 
@@ -83,6 +88,12 @@ module.exports = {
     db.query('DELETE FROM members WHERE id = $1', [id], function (err) {
       if (err) throw `Database error! ${err}`
       callback()
+    })
+  },
+  instructorsSelectOptions (callback) {
+    db.query('SELECT name, id FROM instructors', function (err, results) {
+      if (err) throw `Database error! ${err}`
+      callback(results.rows)
     })
   }
 }
