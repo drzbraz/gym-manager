@@ -28,9 +28,5 @@
   "keywords": [],
   "author": "Daniel Braz",
   "license": "MIT",
-	"description": "Application fullstack developed in LaunchBase",
-	"browsersync":{
-		"open": false
-	}
-
+	"description": "Application fullstack developed in LaunchBase"
 }
