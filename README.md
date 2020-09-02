@@ -20,6 +20,7 @@
 - JavaScript
 - HTML/CSS
 - NodeJS
+- Nunjucks
 
 ## :green_book: License
 
